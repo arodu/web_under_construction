@@ -1,0 +1,45 @@
+body{
+  font-size: 1.2rem;
+  font-family: Helvetica, Arial, sans-serif;
+  
+}
+.wrap{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrap .message{
+  border-radius: .6rem;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.dark .wrap .message{
+  background-color: rgba(0,0,0,.6);
+}
+.dark .wrap , .dark .wrap a{
+  color: #fff;
+}
+
+
+.light .wrap .message{
+  background-color: rgba(255,255,255,.6);
+}
+.light .wrap , .light .wrap a{
+  color: #000;
+}
+
+.wrap h1{
+  font-size: 2rem;
+}
