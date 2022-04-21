@@ -1,11 +1,15 @@
 <?php
   $message = [
     'es'=>'Web en construcción',
+    'it'=>'Web in costruzione',
     'en'=>'Web under construction',
     'pt'=>'Web em construção',
-    'ge'=>'Web im Aufbau',
+    'de'=>'Web im Aufbau',
     'fr'=>'Web en construction',
     'ru'=>'Сеть в разработке',
+    'nl'=>'Web in aanbouw',
+    'ja'=>'建設中のウェブ',
+    'ko'=>'웹 구축 중',
   ];
   $lang = strtolower(substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2));
   $lang_default = 'en';
