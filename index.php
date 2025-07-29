@@ -82,7 +82,6 @@ if ($background_type === 'image' && file_exists($background_image)) {
             font-size: 2rem;
         }
 
-        /* Estilos para el tema oscuro */
         .dark .wrap .message {
             background-color: rgba(0, 0, 0, .6);
         }
@@ -92,7 +91,6 @@ if ($background_type === 'image' && file_exists($background_image)) {
             color: #fff;
         }
 
-        /* Estilos para el tema claro */
         .light .wrap .message {
             background-color: rgba(255, 255, 255, .6);
         }
